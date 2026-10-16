@@ -6,6 +6,8 @@ a {
 body {
 	overflow: scroll;
 	background-color: FFFCF2;
+	font-family: "Calibri", sans-serif;
+	color: #FFFCF2;
 }
 
 header {
@@ -15,6 +17,7 @@ header {
 	background-color: #403D39;
 	top: 0;
 	color: #FFFCF2;
+}
 
 footer {
 	text-align: center;
@@ -23,3 +26,42 @@ footer {
 	background-color:	#403D39;
 	bottom: 0;
 	color: #FFFCF2;
+}
+
+.sidebar {
+	z-index: 1;
+	text-align: left;
+	left: 0;
+	top: 0;
+	height: 100%
+	width: 0;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+	color: #252422;
+	background-color: #CCC5B9;
+}
+
+.sidebar a {
+	transition: 0.3s;
+	display: block;
+}
+
+.sidebar a:hover {
+	color: #FFFCFF;
+}
+
+.sidebar .close {
+	position: absolute;
+	top: 0;
+}
+
+#content {
+	transition: margin-left .5s;
+	padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
