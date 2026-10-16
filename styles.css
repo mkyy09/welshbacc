@@ -45,7 +45,11 @@ footer {
 	background-color: #CCC5B9;
 	position: fixed;
 }
-
+#menuicon {
+	text-align: left;
+	left: 0;
+	padding: 20px;
+	
 .sidebar a {
 	transition: 0.3s;
 	display: block;
