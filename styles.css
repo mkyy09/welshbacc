@@ -13,7 +13,7 @@ body {
 	color: #FFFCF2;
 }
 
-header {
+.header {
 	/** text-align: left; **/
 	width: 100%;
 	position: absolute;
