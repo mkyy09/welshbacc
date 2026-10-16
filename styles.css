@@ -1,0 +1,25 @@
+a {
+	text-decoration: none;
+	color: #FFFCF2;
+}
+
+body {
+	overflow: scroll;
+	background-color: FFFCF2;
+}
+
+header {
+	/** text-align: left; **/
+	width: 100%
+	position: absolute;
+	background-color: #403D39;
+	top: 0;
+	color: #FFFCF2;
+
+footer {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	background-color:	#403D39;
+	bottom: 0;
+	color: #FFFCF2;
